@@ -1,0 +1,216 @@
+Crie um site institucional moderno, responsivo e profissional para uma empresa de Usinagem.
+
+O site deve ser desenvolvido utilizando HTML, CSS e JavaScript. É permitido utilizar tecnologias auxiliares como Bootstrap, bibliotecas de animações leves ou ícones, desde que o projeto continue simples, organizado e fácil de manter.
+
+O objetivo é criar uma landing page/site institucional com navegação fluida, visual moderno, animações suaves e ótima experiência tanto em desktop quanto em dispositivos mobile.
+
+Estrutura principal do site:
+
+1. Seção Inicial / Hero
+- Deve conter uma chamada principal forte para uma empresa de usinagem.
+- Incluir um título impactante, subtítulo explicativo e botão de ação.
+- Exemplo de texto:
+  "Soluções em Usinagem com Precisão e Qualidade"
+  "Atendemos projetos industriais com alta tecnologia, confiabilidade e compromisso com prazos."
+- Botões:
+  "Conheça nossos serviços"
+  "Entre em contato"
+- Pode conter uma imagem genérica relacionada a indústria, máquinas CNC, peças metálicas ou ambiente fabril.
+
+2. Seção Sobre a Empresa
+- Apresentar a empresa de forma institucional.
+- Destacar experiência, qualidade, tecnologia, precisão, compromisso com o cliente e atendimento personalizado.
+- Incluir cards ou blocos com diferenciais, como:
+  - Precisão nos processos
+  - Equipamentos modernos
+  - Equipe qualificada
+  - Compromisso com prazos
+- Utilizar imagens genéricas, que serão substituídas futuramente.
+
+3. Seção de Produtos / Serviços
+- Criar uma área para apresentar produtos e serviços de usinagem.
+- Utilizar cards modernos com imagem, título, descrição curta e botão opcional.
+- Exemplos de produtos/serviços:
+  - Usinagem CNC
+  - Torneamento
+  - Fresamento
+  - Fabricação de peças sob medida
+  - Manutenção e recuperação de componentes
+  - Prototipagem industrial
+- As imagens podem ser genéricas inicialmente.
+
+4. Seção de Clientes
+- Criar uma seção para exibir clientes atendidos.
+- Utilizar logos genéricos ou placeholders.
+- Layout em grid responsivo.
+- Pode conter uma frase como:
+  "Empresas que confiam na nossa qualidade"
+- Os nomes/logos poderão ser alterados posteriormente.
+
+5. Seção de Contato
+- Criar formulário de contato com os campos:
+  - Nome
+  - Empresa
+  - E-mail
+  - Telefone
+  - Mensagem
+- Incluir botão "Enviar mensagem".
+- Também incluir informações de contato fictícias/editáveis:
+  - Telefone
+  - E-mail
+  - Endereço
+  - Horário de atendimento
+- Incluir botão ou link para WhatsApp, deixando o número fácil de alterar no código.
+- O formulário não precisa ter backend inicialmente, mas deve ter validação simples em JavaScript.
+
+6. Rodapé
+- Criar um footer moderno com:
+  - Nome da empresa
+  - Links rápidos
+  - Contato
+  - Direitos autorais
+- Exemplo:
+  "© 2026 Nome da Empresa. Todos os direitos reservados."
+
+
+Design e identidade visual:
+
+Utilizar a seguinte paleta de cores:
+
+- Midnight Blue: #1C2E4A
+- Dusty Blue: #52677D
+- Ivory: #BDC4D4
+- Deep Navy: #0F1A2B
+- Buttercream: #D1CFC9
+
+Direcionamento visual:
+- Visual moderno, industrial, elegante e tecnológico.
+- Fundo principal em tons escuros, especialmente Deep Navy e Midnight Blue.
+- Usar Dusty Blue e Ivory para elementos secundários.
+- Usar Buttercream como cor de destaque em botões, detalhes e chamadas importantes.
+- Boa hierarquia visual.
+- Tipografia limpa, moderna e fácil de ler.
+- Layout com bastante espaçamento, cards arredondados e sombras sutis.
+- Animações suaves ao rolar a página, hover nos botões e cards, transições leves e elegantes.
+
+Responsividade:
+
+O site deve ser totalmente responsivo:
+- Desktop
+- Tablet
+- Mobile
+
+No mobile:
+- O menu deve se transformar em menu hamburguer.
+- As seções devem ficar bem organizadas em coluna.
+- Os botões e textos devem manter boa legibilidade.
+- O formulário deve ocupar bem a largura da tela.
+
+Navegação:
+
+Criar um header fixo ou sticky com menu de navegação contendo:
+- Logo da Empresa
+- Início
+- Sobre
+- Produtos
+- Clientes
+- Contato
+
+Ao clicar nos itens do menu, a página deve rolar suavemente até a seção correspondente.
+
+Estrutura do projeto:
+
+Organizar o projeto em diretórios claros e bem separados, por exemplo:
+
+/assets
+  /images
+  /icons
+
+/css
+  /base
+    variables.css
+    reset.css
+    typography.css
+  /components
+    buttons.css
+    cards.css
+    navbar.css
+    footer.css
+    forms.css
+  /sections
+    hero.css
+    about.css
+    products.css
+    clients.css
+    contact.css
+  main.css
+
+/js
+  main.js
+  menu.js
+  animations.js
+  form-validation.js
+
+/sections
+  hero.html
+  about.html
+  products.html
+  clientes.hml
+  contact.html
+
+/index.html
+
+Caso o Lovable prefira uma estrutura mais simples, ainda assim mantenha o código organizado, comentado e separado por responsabilidade.
+
+Boas práticas de código:
+
+- Utilizar nomes de classes, variáveis e funções claros e fáceis de entender.
+- Evitar nomes genéricos como "x", "item1", "abc".
+- Exemplos de bons nomes:
+  - toggleMobileMenu
+  - handleContactFormSubmit
+  - validateRequiredFields
+  - initializeScrollAnimations
+  - productCard
+  - clientLogoGrid
+- Utilizar variáveis CSS para a paleta de cores:
+  --color-midnight-blue: #1C2E4A;
+  --color-dusty-blue: #52677D;
+  --color-ivory: #BDC4D4;
+  --color-deep-navy: #0F1A2B;
+  --color-buttercream: #D1CFC9;
+- Comentar trechos importantes do código.
+- Garantir que o site seja fácil de editar posteriormente.
+- Deixar textos, imagens, contatos e links fáceis de substituir.
+
+Funcionalidades em JavaScript:
+
+- Menu mobile hamburguer.
+- Scroll suave entre seções.
+- Animações suaves ao aparecer elementos na tela.
+- Validação simples do formulário de contato.
+- Feedback visual após tentativa de envio do formulário.
+- Fechar o menu mobile ao clicar em um link.
+
+Imagens:
+
+Utilizar imagens genéricas relacionadas a:
+- Usinagem
+- Indústria
+- Máquinas CNC
+- Peças metálicas
+- Engenharia
+- Ambiente fabril
+
+As imagens serão substituídas futuramente, então deixe os arquivos e caminhos bem organizados.
+
+Requisitos finais:
+
+- Criar uma página inicial completa, funcional e responsiva.
+- Design moderno, industrial e profissional.
+- Código bem organizado e fácil de manter.
+- Separar o projeto em componentes, seções, estilos e scripts.
+- Garantir boa performance e carregamento leve.
+- Usar HTML semântico.
+- Garantir acessibilidade básica, como textos alternativos em imagens, bom contraste e labels no formulário.
+- Entregar o projeto pronto para futura personalização com nome real da empresa, fotos reais, clientes reais e informações reais de contato.
